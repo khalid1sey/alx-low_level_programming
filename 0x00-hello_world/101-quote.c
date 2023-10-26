@@ -4,12 +4,13 @@
 
 /**
  * _puts - prints string to console
- * 
+ *
  * @str: the string text
- * 
+ *
  * return: 0
 */
-void _puts(const char *str) {
+void _puts(const char *str)
+{
 	int len = strlen(str);
 	int i = 0;
 
