@@ -1,2 +1,2 @@
 #!/bin/bash
-intel-c -S $CFILE main.s 
+intel-c -S $CFILE -o main.s 
