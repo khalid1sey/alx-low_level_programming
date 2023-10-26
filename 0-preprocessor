@@ -1,0 +1,3 @@
+#!/bin/bash
+export CFILE=main.c
+gcc $CFILE -E c
