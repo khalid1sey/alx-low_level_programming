@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char letter;
+    int i;
 
-    for (letter = 'a'; letter <= 'z'; letter++) {
-        if (letter != 'h' && letter != 'l') {
-            putchar(letter);
-        }
+    for (i = 0; i < 10; i++) {
+        putchar(i + '0');
     }
 
     putchar('\n');

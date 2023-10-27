@@ -108,13 +108,7 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
     Print all the letters except q and e
     You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
     All your code should be in the main function
-    You can only use putchar twice in your code
-
-julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
-julien@ubuntu:~/0x01$ ./4-print_alphabt 
-abcdfghijklmnoprstuvwxyz
-julien@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
-julien@ubuntu:~/0x01$ 
+    You can only use putchar twice in your code 
 
 Repo:
 
@@ -128,11 +122,6 @@ mandatory
 Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
     All your code should be in the main function
-
-julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
-julien@ubuntu:~/0x01$ ./5-print_numbers 
-0123456789
-julien@ubuntu:~/0x01$ 
 
 Repo:
 
