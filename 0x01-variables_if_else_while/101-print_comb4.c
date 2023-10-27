@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - a program that checks wether a i is positive or negative
  *
