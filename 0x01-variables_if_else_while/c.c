@@ -1,9 +1,14 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 
-int main(void){
-    int n, last_digit;  
+int main() {
+    char letter;
 
-  return 0;
+    for (letter = 'a'; letter <= 'z'; letter++) {
+        if (letter != 'h' && letter != 'l') {
+            putchar(letter);
+        }
+    }
+
+    putchar('\n');
+    return 0;
 }
