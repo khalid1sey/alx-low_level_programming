@@ -3,8 +3,17 @@
 #include <stdlib.h>
 
 int main(void){
-    char ch = 'z';
-    int ascii_v = ASCII(ch);
-    printf("%d\n", ascii_v);
-    return 0;
+     int c = 'Z';
+  
+      int i = 97;
+    if (c <= 122 && c >= 97)
+    {
+        return('1');
+    } else{
+        return('0');
+    }
+
+
+    return (0);
+
 }
