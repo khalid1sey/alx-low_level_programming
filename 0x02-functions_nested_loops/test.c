@@ -3,17 +3,12 @@
 #include <stdlib.h>
 
 int main(void){
-     int c = 'Z';
-  
-      int i = 97;
-    if (c <= 122 && c >= 97)
-    {
-        return('1');
-    } else{
-        return('0');
-    }
+    
+    int ld = n % 10;
+
+    putchar(ld + '0');
+    putchar('\n');
 
 
-    return (0);
-
+	return (0);
 }
