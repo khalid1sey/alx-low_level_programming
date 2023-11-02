@@ -2,28 +2,29 @@
 
 /**
  * print_triangle - a function that draws a diagonal line on the terminal.
- * @n: distance
+ * @size: distance
  * Return: 0
 */
-void print_triangle(int n)
+void print_triangle(int size)
 {
-	int i, j, k;
+	int i, j;
 
-	if (n <= 0)
+	if (size <= 0)
 		putchar('\n');
-
-	for (i = 0; i < n; i++)
+	else
 	{
-		for (j = i; j < n; j++)
+		for (i = 0; i < size; i++)
 		{
-			putchar(' ');
-		}
+			for (j = i; j < size; j++)
+			{
+				putchar(' ');
+			}
 
-        for (k = j; k > i; k--)
-		{
-		    putchar('#' + 0);
+        	for (j = 1; j <= i; j++)
+			{
+			    putchar('#' + 0);
+			}
+			putchar('\n');
 		}
-		putchar('\n');
 	}
-	putchar('\n');
 }
