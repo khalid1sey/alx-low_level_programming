@@ -31,7 +31,7 @@ General
     The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
     Don’t forget to push your header file
 
-
+![Alt text](ascii.png)
 
 0. isupper
 mandatory
@@ -43,3 +43,15 @@ Write a function that checks for uppercase character.
     Returns 0 otherwise
 
 FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
+
+
+1. isdigit
+mandatory
+
+Write a function that checks for a digit (0 through 9).
+
+    Prototype: int _isdigit(int c);
+    Returns 1 if c is a digit
+    Returns 0 otherwise
+
+FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
