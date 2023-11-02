@@ -24,8 +24,10 @@ int main(void)
 		{
 			printf(" Buzz");
 			continue;
+		} else
+		{
+			printf(" %i", i);
 		}
-		printf(" %i", i);
 	}
 	putchar('\n');
 	return (0);
