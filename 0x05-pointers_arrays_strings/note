@@ -7,3 +7,10 @@ float - 4 (32b)
 pointer - 8 (64b)
 to determine sizeof a variable in c there is a operator (sizeof()) which returns the size of given variable in byte
 
+
+
+write a function that calculates the length of given string
+str = "My first strlen!";
+
+temp = *(str + i);
+return length of str which is 16;
