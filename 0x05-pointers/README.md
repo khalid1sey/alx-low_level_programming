@@ -22,6 +22,7 @@ General
     How to use strings and how to manipulate them
     Scope of variables
 
+
 Requirements
 General
 
