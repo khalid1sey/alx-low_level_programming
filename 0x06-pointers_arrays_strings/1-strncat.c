@@ -1,28 +1,11 @@
 #include "main.h"
 
 /**
- * _strlen - a function that takes a pointer to an int as parameter
- *
- * @s: a pointer to the second integer
- *
- * Return: size or length of given integer
-*/
-int _strlen(char *s)
-{
-	int i = 0;
-
-	while (*(s + i) != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
-/**
- * _strcat - a custom function to concatnate two strings
+ * _strncat - a custom function to concatnate two strings
  *
  * @src: source os string
  * @dest: destination
+ * @n: size
  *
  * Return: concatnated string
 */
@@ -30,16 +13,14 @@ int _strlen(char *s)
 char *_strncat(char *dest, char *src, int n)
 {
 	int len = _strlen(dest);
-
-	while (*dest)
-		dest++;
-
-	while (len != 0)
+	int i;
+`
+	while (i < n && src[i] != '\0')
 	{
-		*dest = *src + n;
-		dest++;
-		src++;
+		dest[len + 1] = src[i];
+		i++;
 	}
 
+	dest[len + 1] = '\0';
 	return (dest);
 }
