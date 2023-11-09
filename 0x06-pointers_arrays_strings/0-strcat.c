@@ -1,26 +1,31 @@
-#include "main.h"
 
 /**
- * _strcat - a custom function to concatnate two strings
+ * *_strcat - contacnates 2 variables
  *
- * @src: source os string
- * @dest: destination
+ * @dest: string 1
  *
- * Return: concatnated string
-*/
+ * @src: string 2
+ *
+ * Return: returns the pointer originalDest
+ */
+
 char *_strcat(char *dest, char *src)
 {
-	char *ptr = dest;
+	char *tmpdest = dest;
 
-	while (*dest)
+	while (*dest != '\0')
+	{
 		dest++;
-
-	while (*src != 0)
+	}
+	while (*src != '\0')
 	{
 		*dest = *src;
 		dest++;
 		src++;
 	}
 
-	return (ptr);
+	*dest = '\0';
+
+	return (tmpdest);
+
 }

@@ -1,26 +1,33 @@
-#include "main.h"
-
 /**
- * _strncpy - a custom function to implement builtin strcpy
- * @src: source os string
- * @dest: destination
- * @n: bytes read
+ * *_strncpy - contacnates 2 variables
  *
- * Return: copy of given string
-*/
+ * @dest: string 1
+ *
+ * @src: string 2
+ *
+ * @n: integer
+ *
+ * Return: returns the pointer originalDest
+ */
+
 char *_strncpy(char *dest, char *src, int n)
 {
+	char *tmpdest = dest;
 
-	int i;
-
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while (*src != '\0' && n > 0)
 	{
-		dest[i] = src[i];
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
 	}
-	for (; i < n; i++)
+	while (n > 0)
 	{
-		dest[i] = '\0';
+		*dest = '\0';
+		dest++;
+		n--;
 	}
 
-	return (dest);
+	return (tmpdest);
+
 }

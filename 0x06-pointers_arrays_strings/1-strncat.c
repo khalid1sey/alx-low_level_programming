@@ -1,26 +1,33 @@
-#include "main.h"
-
 /**
- * _strncat - a custom function to concatnate two strings
+ * *_strncat - contacnates 2 variables
  *
- * @src: source os string
- * @dest: destination
- * @n: size
+ * @dest: string 1
  *
- * Return: concatnated string
-*/
+ * @src: string 2
+ *
+ * @n: integer
+ *
+ * Return: returns the pointer originalDest
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int len = _strlen(dest);
-	int i;
-`
-	while (i < n && src[i] != '\0')
+	char *tmpdest = dest;
+
+	while (*dest != '\0')
 	{
-		dest[len + 1] = src[i];
-		i++;
+		dest++;
+	}
+	while (*src != '\0' && n > 0)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
 	}
 
-	dest[len + 1] = '\0';
-	return (dest);
+	*dest = '\0';
+
+	return (tmpdest);
+
 }

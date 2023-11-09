@@ -1,23 +1,24 @@
-#include "main.h"
-
 /**
- * _strcmp - a custom function to implement built in strcmp
+ * _strcmp - compares given two string
  *
  * @s1: string 1
+ *
  * @s2: string 2
  *
- * Return: result of comparision  which is integer
- *           0 if string1 and string2 are equal
- *          -1 > if string1 is less than string2
- *           1 < if string 1 is greater than string 2
-*/
-int _strcmp(char *s1, char *s2)
-{
-	while (*s1 != '\0' && (*s1 == *s2))
-	{
-		s1++;
-		s2++;
-	}
+ * Return: Always 0i
+ *
+ */
 
-	return (*(unsigned char *)s1 - *(unsigned char *)s2);
+int _strcmp(const char *s1, const char *s2)
+{
+	while (*s1 != '\0' || *s2 != '\0')
+	{
+	if (*s1 != *s2)
+	{
+	return (*s1 - *s2);
+	}
+	s1++;
+	s2++;
+	}
+	return (0);
 }
