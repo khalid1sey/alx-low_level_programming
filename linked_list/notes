@@ -1,0 +1,44 @@
+
+------------------ll is
+ll are common alternative to arrays in implementation of data structures.
+holds data and pointer to next list item.each item in list is connected to the next item via a list or link.
+
+-------------------ll facts:
+      - size of ll changes as items are inserted or removed
+      - ll of ites are arranged in order
+      - final node in a linked list doesnt point to next node.
+      - if link doesnt point to a node, its value is set to NULL
+
+
+an item in ll consist of structurecontaining data element and pointer to another ll
+
+------------------empty list
+      - when list is empty both headptr and tailptr are NULL.
+      - when creating a list it starts out empty(head and tail _ptr).
+      -any ll functions you write should handle the case of empty list(head and tail)
+      -
+
+      -eg snippet: NOde *head_ptr, *tail_ptr;
+            head_ptr = NULL;
+            tail_ptr = NULL;
+
+------------------syntax
+struct list_node {
+    elem data;
+    struct list_node *next;
+};
+
+
+-------------------array vs linked_list
+array have fixed size
+      insertion and deletion is easy
+      item can not be accessed from any where.you have to itrate until you got the desired item
+      memory is allocated from the stack
+      its mandatory to specify number of elements during declaration
+      occupies less memory
+
+------------------applications  of linked_list
+      - to implement stack,queue, trees and graphs
+      - implement symbol table in construction
+      - reperesent large numbers and operations of the large number such as addition, mul, divison
+      - to represent and manipulate polynomial
