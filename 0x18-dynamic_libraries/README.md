@@ -61,7 +61,7 @@
         - updates: when shared lib is updated all programs using that library can be potentially benfit from the changes without recompiling or relinking. The updated library can be loaded dynamically, and programs can access the new functionality without requiring any changes to the executable.
         Dependency Management: Shared libraries can have dependencies on other shared libraries. The dynamic linker/loader resolves these dependencies and loads the required libraries automatically.
 
-Basic usage nm, ldd, ldconfig:
+# Basic usage nm, ldd, ldconfig:
     nm: displays the symbol table infn from object files or libraries.it is used to examine the symbols(function, variables) defined in lib or obj file.
         nm libfile
     ldd: lists the shared libs dependencies of a program or a library. it shows the shared libs required by an executable or shared obj file
