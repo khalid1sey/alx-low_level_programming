@@ -1,7 +1,7 @@
         *0x19 - Stack and Queues
 # 1.1 what is stack
 
-    a stack is a linear data structure that follows LIFO rule.in stack both insertion and deletion takes place from just one end, that is from the top.
+a stack is a linear data structure that follows LIFO rule.in stack both insertion and deletion takes place from just one end, that is from the top.
         <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/06/C-Stack-insertion-and-deletion.jpg">
 
 * there is two ways to implement stack in c:
