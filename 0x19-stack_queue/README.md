@@ -2,7 +2,7 @@
 # 1.1 what is stack
 
     a stack is a linear data structure that follows LIFO rule.in stack both insertion and deletion takes place from just one end, that is from the top.
-    <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/06/C-Stack-insertion-and-deletion.jpg" alt="ilustration of stack">
+        <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/06/C-Stack-insertion-and-deletion.jpg">
 
 * there is two ways to implement stack in c:
     * statically: array implementation of stacks allows the static memory allocation of its data elements. its important to note that in this method the stack acquires all the features of an array.
