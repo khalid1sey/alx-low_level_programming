@@ -1,6 +1,6 @@
 # ALX Software Engineering Low-Level Programming Course Repository
 Welcome to the ALX Software Engineering Low-Level Programming course repository! 
-This repository contains a collection of programming tasks and exercises focusing on low-level programming concepts and techniques.
+* This repository contains a collection of programming tasks and exercises focusing on low-level programming concepts and techniques.
 
 The ALX Low-Level Programming course is designed to provide a deep understanding of the inner workings of computer systems,
 including memory management, assembly language, data structures, algorithms, and more. It aims to equip aspiring software engineers
