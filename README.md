@@ -41,4 +41,4 @@ These tasks are designed to reinforce your understanding of the concepts and pro
 | [0x17-doubly_linked_lists](./0x17-doubly_linked_lists) | Tasks involving doubly linked lists |
 | [0x18-dynamic_libraries](./0x18-dynamic_libraries) | Tasks related to dynamic libraries |
 
-Feel free to explore the repository and dive into the tasks to enhance your programming skills!
+Feel free to explore the repository and dive into the tasks to enhance your programming skills
